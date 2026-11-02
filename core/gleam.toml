@@ -1,0 +1,11 @@
+name = "maccel_curve_core"
+version = "1.0.0"
+description = "Pure curve maths shared by the maccel_curve CLI/server and the browser editor"
+target = "erlang"
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+gleam_json = ">= 3.1.0 and < 4.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
